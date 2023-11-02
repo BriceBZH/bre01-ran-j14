@@ -9,6 +9,5 @@ window.addEventListener("DOMContentLoaded", function(){
     let para = document.createElement("p");
 	let newPara = document.createTextNode("Le paragraphe de la deuxième section");
 	para.appendChild(newPara); // on insère le texte dans le li
-    var sec2 = document.querySelector("body > section:last-of-type");
-    sec2.appendChild(para);
+    sec.appendChild(para);
 });

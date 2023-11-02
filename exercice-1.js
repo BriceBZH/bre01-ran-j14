@@ -1,5 +1,4 @@
 window.addEventListener("DOMContentLoaded", function(){
-    // pas propre
 	let newLi = document.createElement("li");
 	let newLiText = document.createTextNode("Sucre");
 	newLi.appendChild(newLiText); // on insère le texte dans le li

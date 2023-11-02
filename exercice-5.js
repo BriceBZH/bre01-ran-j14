@@ -7,12 +7,9 @@ window.addEventListener("DOMContentLoaded", function(){
 		["Anne", "O'Neam"]
 	];
     let new_table = document.createElement("table");
-    var nb_val1 = users.length;
-    for(var i=0;i<nb_val1;i++) { //on parcours les cases générales du tableau
+    for(var i=0;i<users.length;i++) { //on parcours les cases générales du tableau
         let new_ligne = document.createElement("tr");
-        var nb_val2 = users[i].length;
-        console.log(nb_val2);
-        for(var j=0;j<nb_val2;j++) { //on parcours les cases des cases
+        for(var j=0;j<users[i].length;j++) { //on parcours les cases des cases
             let new_colonne = document.createElement("td"); //création d'une colonne par champs
             let newText = document.createTextNode(users[i][j]);
             new_colonne.appendChild(newText); // on insère le texte dans le td
